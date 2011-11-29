@@ -6,7 +6,8 @@
 Сохраняет скриншот в публичную папку dropbox c уникальным именем (MD5 hash дата+время)
 Копирует в буфер полный URL до изображения
 
-Установка:
+Установка
+-----
 1. Установить MiniCapSetup.exe
 2. Проверить путь установки (обычно: C:\Program Files (x86)\MiniCap\MiniCap.exe или C:\Program Files\MiniCap\MiniCap.exe)
 3. Внести изменения в config.ini изменив значение CAP
@@ -17,3 +18,9 @@
 8. Изменить, если потребуется, hotkey для снятия скриншота. По умолчанию PRINTSCREEN (shoot_key в config.ini)
 9. Скопировать config.ini и BoxShoot.exe в отдельный каталог (например C:\Program Files\BoxShoot)
 10. Создать ярлык C:\Program Files\BoxShoot\BoxShoot.exe в автозагрузке
+
+Ссылки
+-----
+AutoIT	http://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe
+DropBox	http://cdn.dropbox.com/Dropbox%201.2.48.exe
+MiniCAP	http://www.donationcoder.com/Software/Mouser/MiniCap/downloads/MiniCapSetup.exe
