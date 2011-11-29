@@ -22,5 +22,7 @@
 Ссылки
 -----
 AutoIT	http://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe
+
 DropBox	http://cdn.dropbox.com/Dropbox%201.2.48.exe
+
 MiniCAP	http://www.donationcoder.com/Software/Mouser/MiniCap/downloads/MiniCapSetup.exe
