@@ -3,26 +3,17 @@
 Приложение - прослойка, для создания скриншотов и использования публичной папки DropBox в качестве хранишища.
 
 По горячей кнопке запускается приложение предлагающее выбрать область для снятия скриншота
-Сохраняет скриншот в публичную папку dropbox c уникальным именем (MD5 hash дата+время)
+Сохраняет скриншот в публичную папку dropbox c уникальным именем (год-месяц/дата-время.png)
 Копирует в буфер полный URL до изображения
+При нажатии Ctrl+PrintScreen - можно выделить область экрана и полученное изображение откроется в Paint (или другой программе, которая задана в конфиге). При этом полный URL изображения также копируется в буфер обмена
 
 Установка
 -----
-1. Установить MiniCapSetup.exe
-2. Проверить путь установки (обычно: C:\Program Files (x86)\MiniCap\MiniCap.exe или C:\Program Files\MiniCap\MiniCap.exe)
-3. Внести изменения в config.ini изменив значение CAP
-4. Создать каталог для скриншотов в общедоступной папке Public в каталоге Dropbox (например C:\Dropbox\Public\pic\)
-5. Внести изменения в config.ini изменив значение DBOX_DIR
-6. Через сайт dropbox получить начальную часть ссылки (например: http://dl.dropbox.com/u/2058666/pic/)
-7. Внести изменения в config.ini изменив значение DBOX_URL
-8. Изменить, если потребуется, hotkey для снятия скриншота. По умолчанию PRINTSCREEN (shoot_key в config.ini)
-9. Скопировать config.ini и BoxShoot.exe в отдельный каталог (например C:\Program Files\BoxShoot)
-10. Создать ярлык C:\Program Files\BoxShoot\BoxShoot.exe в автозагрузке
-
-Ссылки
------
-AutoIT	http://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe
-
-DropBox	http://cdn.dropbox.com/Dropbox%201.2.48.exe
-
-MiniCAP	http://www.donationcoder.com/Software/Mouser/MiniCap/downloads/MiniCapSetup.exe
+1. Установить MiniCap ( http://www.donationcoder.com/Software/Mouser/MiniCap )
+2. Скопировать MiniCap.exe в папку с программой
+3. Создать каталог для скриншотов в общедоступной папке Public в каталоге Dropbox (например C:\Dropbox\Public\Screenshot\)
+4. Внести изменения в config.ini изменив значение dropboxDir
+5. Через сайт dropbox получить начальную часть ссылки (например: http://dl.dropbox.com/u/000000/Screenshot/)
+6. Внести изменения в config.ini изменив значение dropboxUrl
+7. Изменить, если потребуется, горячие клавиши для снятия скриншотов. По умолчанию PRINTSCREEN (hotkeyShoot в config.ini)
+8. Создать ярлык для BoxShoot в автозагрузке (BoxShoot_x32.exe - для 32-битных систем и BoxShoot_x64.exe для 64-битных)
