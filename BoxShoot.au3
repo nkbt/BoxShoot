@@ -5,7 +5,7 @@ $hotkey_ShootAndEdit = IniRead(@ScriptDir & "./config.ini", "config", "hotkey_Sh
 $dropboxDir = IniRead(@ScriptDir & "./config.ini", "config", "dropboxDir", "NotFound")
 $dropboxUrl = IniRead(@ScriptDir & "./config.ini", "config", "dropboxUrl", "NotFound")
 $capExe = IniRead(@ScriptDir & "./config.ini", "config", "capExe", "MiniCap.exe")
-$capParams = IniRead(@ScriptDir & "./config.ini", "config", "capParams", "-captureregselect -exit -compress 7 -bordershadow -noaero -save")
+$capParams = IniRead(@ScriptDir & "./config.ini", "config", "capParams", "-captureregselect -exit -compress 7 -noaero -save")
 $editorExe = IniRead(@ScriptDir & "./config.ini", "config", "editorExe", "mspaint")
 
 If @error Then
